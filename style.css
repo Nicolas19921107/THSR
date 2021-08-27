@@ -1,0 +1,1503 @@
+* {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", Helvetica, Arial,
+    sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  /* background-color: #fff; */
+  width: 100%;
+}
+
+/* .fixeddiv {
+  display: none;
+  height: 110px;
+} */
+
+/* -------------------浮動選單欄 的部分------------------- */
+
+.hotservice {
+  position: fixed;
+  width: 80px;
+  height: 300px;
+  right: 20px;
+  bottom: 60px;
+  background-color: rgb(228, 76, 15);
+  z-index: 3;
+  box-shadow: 2px 2px 10px rgb(192, 192, 192), -2px -2px 10px rgb(192, 192, 192);
+}
+
+.hot-title {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hot-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  height: 70%;
+}
+
+.hot-content a {
+  color: rgb(82, 82, 82);
+}
+
+.hot-content a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.hot-content img {
+  width: 80%;
+}
+.hot-content p {
+  font-size: 1rem;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.top-button {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+
+.top-button:hover {
+  background-color: rgb(250, 216, 153);
+}
+
+.hotservice a:hover {
+  text-decoration: none;
+}
+
+.top-button p {
+  margin-bottom: 0px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.top-button .fas {
+  color: #fff;
+  padding-top: 10px;
+}
+
+/*---Top header 的部分 */
+
+.topheader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  background-color: #fff;
+}
+/* -------------------Header 的部分------------------- */
+
+.header {
+  margin: 0px auto;
+  min-width: 100%;
+  background-color: #fff;
+}
+
+.headerbg {
+  width: 100%;
+  height: 85px;
+  /* background-color: yellow; */
+  margin: 0 auto;
+}
+
+.topheader-right {
+  width: 50%;
+  display: flex;
+  margin-right: 40px;
+}
+
+.status {
+  width: 30%;
+  padding-right: 30px;
+  border-right: 1px solid gray;
+}
+
+.status span {
+  color: darkgreen;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.headerlist {
+  width: 90%;
+  text-align: left;
+}
+
+.topheader-right a {
+  padding: 0 10px;
+  border-right: 1px solid gray;
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.topheader-right a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+/* -------------------Nav 的部分------------------- */
+
+.nav {
+  /* height:60px; */
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  height: 100%;
+  text-align: right;
+}
+.logo img {
+  width: 60%;
+  padding-bottom: 10px;
+}
+.navbar {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 700;
+  /* background-color: orange; */
+}
+
+.navbar a {
+  padding: 0 10px 10px 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid orange;
+}
+
+.language {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  /* outline: 1px solid red; */
+}
+
+.language a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding-left: 10px;
+  color: #000;
+}
+
+.language-left {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.language-left a {
+  text-decoration: none;
+  color: #000;
+}
+
+.language-left:hover {
+  color: orange;
+}
+
+.language-left a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.buyticket {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100%;
+  left: -60%;
+}
+
+.buyticket-content {
+  width: 100%;
+  height: 60vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 30px;
+  border: 1px solid rgb(182, 182, 182);
+  box-shadow: 0px 10px 10px gray;
+}
+.buy-content {
+  /* width: 10%; */
+  height: 100%;
+}
+
+.subtitle h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.subcontent p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.ticket-bg {
+  width: 100%;
+  height: 40vh;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.infoticket:hover .buyticket {
+  display: block;
+}
+.carguide:hover .buyticket {
+  display: block;
+}
+
+.twtravel:hover .buyticket {
+  display: block;
+}
+.about:hover .buyticket {
+  display: block;
+}
+
+.buyticket:hover {
+  display: block;
+}
+
+/* -------------------Carousel & Tab 的部分------------------- */
+.corosel {
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  /* padding-top:80px; */
+}
+.container-fluid {
+  background-color: rgb(231, 231, 231);
+}
+
+.carousel .carousel-control-prev {
+  background-color: #000;
+  width: 3%;
+  height: 25%;
+  top: 160px;
+  opacity: 0.6;
+}
+
+.carousel .carousel-control-next {
+  background-color: #000;
+  width: 3%;
+  height: 25%;
+  top: 160px;
+  opacity: 0.6;
+}
+
+.tab {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.tab:hover a {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+
+.tab a {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+
+.tabcontent {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* outline: 1px solid red; */
+  text-align: center;
+  line-height: 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgba(236, 236, 236, 0.9);
+  border-top: 10px solid orange;
+  position: absolute;
+  left: 11%;
+}
+
+.timeschedule {
+  width: 30%;
+  background-color: #fff;
+  /* outline: 1px solid red; */
+}
+
+.booking {
+  width: 30%;
+  /* outline: 1px solid red; */
+}
+
+.salesinfo {
+  width: 30%;
+  /* outline: 1px solid red; */
+}
+
+/* -------------------Tab 內容的部分------------------- */
+
+.info {
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  /* outline: 1px solid red; */
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.info .site {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin: 0px 20px; */
+  /* outline: 1px solid red; */
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+}
+
+.site span {
+  padding-right: 25px;
+}
+
+.info img {
+  width: 20px;
+  height: 20px;
+  /* outline: 1px solid red; */
+}
+
+.info label,
+.info span {
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.info .from,
+.info .to,
+.info .promotion {
+  width: 10%;
+  /* outline: 1px solid red; */
+  margin: auto 0px;
+}
+
+.info .fas {
+  width: 40px;
+  height: 50px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.direction {
+  width: 8%;
+  display: flex;
+  /* outline: 1px solid red; */
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  margin-bottom: 40px;
+}
+
+.direction img {
+  margin: auto 0px;
+}
+
+.date,
+.time {
+  display: flex;
+  flex-direction: column;
+  /* outline: 1px solid red; */
+  margin: auto 0px;
+}
+
+.submit {
+  /* outline: 1px solid red; */
+  width: 10%;
+  margin: auto 0px;
+  text-align: center;
+}
+
+.submit input {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(228, 76, 15);
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: #fff;
+  border: transparent;
+}
+
+.submit:hover input {
+  background-color: rgb(243, 185, 61);
+  color: #000;
+}
+
+/* ------------------- Slogan 內容的部分------------------- */
+
+.slogan,
+.latest,
+.beautiful,
+.connect {
+  text-align: center;
+  height: 100px;
+}
+
+.slogan h3,
+.latest h3,
+.beautiful h3,
+.connect h3 {
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.slogan span,
+.latest span,
+.beautiful span,
+.connect span {
+  border-bottom: 5px solid rgb(228, 76, 15);
+  padding-bottom: 10px;
+}
+
+/* ------------------- 服務內容的部分------------------- */
+
+.ser {
+  background-color: rgb(231, 231, 231);
+}
+.service {
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.d-flex {
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.d-flex .imgn {
+  width: 20%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.d-flex .imgn:hover h6 {
+  color: orange;
+}
+
+.d-flex img {
+  width: 30%;
+  color: orange;
+}
+
+.bo {
+  border-right: 1px solid gray;
+}
+
+.d-flex h6 {
+  margin: 10px auto;
+  font-weight: 700;
+}
+
+/* ------------------- 新聞資訊的部分------------------- */
+
+.news {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+}
+
+.newscontent span {
+  color: rgb(82, 82, 82);
+}
+
+.newscontent {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+  text-align: center;
+  line-height: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(231, 231, 231);
+}
+
+.newsandannounce a:hover {
+  text-decoration: none;
+}
+
+.newsandannounce {
+  width: 33.33%;
+  margin: 0px 2px;
+  /* outline: 1px solid red; */
+  background-color: rgb(228, 76, 15);
+  position: relative;
+}
+
+/* .newsandannounce img {
+  position: absolute;
+  width: 20px;
+  bottom: -15px;
+  left: 47%;
+} */
+
+.newsandannounce span {
+  color: #fff;
+}
+.newsinfo {
+  width: 33.33%;
+  margin: 0px 2px;
+  /* outline: 1px solid red; */
+  background-color: rgb(211, 211, 211);
+}
+
+.newsinfo a:hover {
+  text-decoration: none;
+}
+.systeminfo {
+  width: 33.33%;
+  margin: 0px 2px;
+  /* outline: 1px solid red; */
+  background-color: rgb(211, 211, 211);
+}
+
+.systeminfo a:hover {
+  text-decoration: none;
+}
+.bulletin {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+}
+
+.bulletincontent {
+  width: 80%;
+  /* height: 150px; */
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: justify;
+  padding: 0px 20px;
+  /* outline: 1px solid red; */
+}
+
+.newstitle {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  line-height: 50px;
+}
+
+.newstitle a {
+  text-decoration: none;
+  color: #000;
+}
+
+.newstitle:hover a {
+  color: orange;
+  text-decoration: none;
+}
+
+.newstitle span {
+  margin: 0px 20px;
+}
+
+.more {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+}
+
+.morecontent {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  border-top: 20px solid rgb(231, 231, 231);
+  transition: 0.5s;
+}
+
+.morecontent a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+
+.morecontent:hover {
+  background-color: rgb(228, 76, 15);
+  transition: 0.5s;
+}
+
+.morecontent:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+.morecontent:hover .fas {
+  color: #fff;
+  /* transform: rotate(-90deg); */
+}
+.morecontent .fas {
+  color: rgb(228, 76, 15);
+  /* transform: rotate(-90deg); */
+}
+/* ------------------- 活動內容的部分------------------- */
+
+.activity {
+  width: 100%;
+  margin: 0px auto;
+  padding: 10px 0;
+  background-color: rgb(231, 231, 231);
+}
+
+.activitycontent {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.activitycontent a {
+  text-decoration-line: none;
+  color: rgb(82, 82, 82);
+}
+
+.bigbanner {
+  width: 50%;
+  /* height: 280px; */
+  text-align: center;
+  overflow: hidden;
+}
+
+.bigbanner img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.bigbanner:hover img {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
+.actcard:hover img {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+}
+
+.actcard:hover a {
+  text-decoration-line: none;
+  color: orange;
+}
+
+.actcard {
+  width: 25%;
+  /* height: 280px; */
+  background-color: #fff;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.pic {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pic img {
+  width: 100%;
+  transition: 1s;
+}
+
+.actcard.cardbody {
+  /* height: 80%; */
+}
+
+.cardbody h6 {
+  text-align: left;
+  padding: 20px 20px 0 20px;
+  font-weight: 700;
+}
+
+.cardbody p {
+  text-align: left;
+  padding: 0px 20px;
+  word-break: break-all;
+  font-weight: 700;
+}
+
+/* ------------------- 旅遊行銷的部分------------------- */
+
+.travel {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+  height: 600px;
+}
+
+.travelcontent {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.travelcard-banner {
+  width: 50%;
+  height: 90%;
+  background-color: #fff;
+}
+
+.banner-for-travel {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.banner-for-travel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+}
+
+.banner-line {
+  width: 6%;
+  height: 1%;
+  background-color: gray;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.banner-body {
+  margin: 20px;
+}
+
+.banner-body p {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.banner-body a {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(241, 162, 14);
+  text-decoration: underline;
+}
+
+.banner-body .fas {
+  color: rgb(228, 76, 15);
+}
+.banner-body a:hover {
+  color: rgb(241, 162, 14);
+}
+
+.banner-position {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.banner-position .foraction {
+  width: 30px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgb(228, 76, 15);
+  border-radius: 30%;
+}
+
+.banner-position .circle {
+  width: 15px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.travelcard-banner:hover img {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
+.travelcard {
+  width: 50%;
+  height: 90%;
+}
+
+.travelcard-body1 {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
+}
+
+.travelcard-body2 {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  background-color: #fff;
+}
+
+.travelcard-content {
+  width: 600px;
+}
+.travelcard-img {
+  width: 600px;
+  /* height: 100%; */
+  overflow: hidden;
+}
+
+.travelcard-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+}
+
+.travelcard-body2 img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  transition: 1s;
+}
+
+.travelcard-body2 .travelcard-content {
+  order: 2;
+}
+.travelcard-body2 .travelcard-img {
+  order: -1;
+}
+
+.travelcard-content h3 {
+  margin: 10px;
+  font-size: 1.4rem;
+}
+
+.travelcard-content p {
+  margin: 5px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.travelcard-content a {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(241, 162, 14);
+  text-decoration: underline;
+}
+
+.travelcard-content .fas {
+  margin-left: 10px;
+  color: rgb(228, 76, 15);
+}
+
+.travelcard-content a:hover {
+  color: rgb(241, 162, 14);
+}
+
+.travelcard-body1:hover img {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
+.travelcard-body2:hover img {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+/* ------------------- App 內容的部分------------------- */
+
+.hei {
+  height: 20px;
+}
+.App {
+  width: 100%;
+  margin: auto;
+  /* margin-top:10px; */
+  padding-top: 5px;
+  background-color: rgb(231, 231, 231);
+  /* height: 200px; */
+}
+
+.App-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.Appintro {
+  text-align: center;
+  width: 60%;
+}
+
+.Appintro h3 {
+  color: rgb(228, 76, 15);
+  font-weight: 700;
+}
+
+.Appintro p {
+  width: 80%;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.Appicon {
+  text-align: left;
+  width: 40%;
+}
+
+.Appicon img {
+  width: 30%;
+  margin: 0 10px;
+}
+
+/* ------------------- 聯絡我們內容的部分------------------- */
+
+.qa {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+  /* height: 150px; */
+}
+
+.qa-content {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  /* height: 50%; */
+  padding: 10px 0;
+  background-color: rgb(99, 99, 99);
+  align-items: center;
+}
+
+.contact {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact:hover a {
+  text-decoration: none;
+}
+
+.qa-info a,
+.lost-inquiry a,
+.contact-us a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qa-info,
+.lost-inquiry,
+.contact-us {
+  width: 30%;
+}
+
+.qa-info img {
+  width: 15%;
+}
+
+.lost-inquiry .far,
+.contact-us .fas {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.qa-info h4,
+.lost-inquiry h4,
+.contact-us h4 {
+  color: #fff;
+  padding: 0 10px;
+  margin-bottom: 0px;
+}
+
+.follow-us {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.followtext {
+  width: 70%;
+  height: 60%;
+  text-align: center;
+  padding: 0 10px 0 30px;
+  border-left: 1px solid #fff;
+}
+
+.followtext p {
+  color: #fff;
+  margin: 5px 0;
+  font-size: 1.1rem;
+  margin-bottom: 0px;
+  /* margin-left:20px ; */
+}
+
+.social-icons img {
+  width: 15%;
+  margin: 0 10px;
+}
+
+.website-guide {
+  width: 80%;
+  /* height: 30%; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.website-guide a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.website-guide a:hover {
+  text-decoration: none;
+  color: gray;
+  font-weight: 700;
+}
+
+.website-guide p {
+  margin: 20px 10px;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.website-guide .fas {
+  margin: 26px 5px;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+/* ------------------- Footer 的部分------------------- */
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(99, 99, 99);
+  /* height: 100px; */
+}
+
+.footer-content {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  /* height: 100%; */
+  padding-left: 70px;
+  align-items: center;
+}
+
+.footerpersonal {
+  width: 70%;
+}
+
+.footerinfo {
+  width: 100%;
+  /* height: 30%; */
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0px;
+}
+
+.personalinfo {
+  padding: 5px;
+  text-align: center;
+}
+
+.personalinfo p {
+  border-right: 1px solid #fff;
+  font-size: 0.8rem;
+  color: #fff;
+  padding-right: 10px;
+  font-weight: 700;
+  transition: 0.5s;
+  margin: auto 0;
+}
+
+.personalinfo p:hover {
+  text-decoration: none;
+  color: orange;
+  transition: 0.5s;
+}
+
+.HSRright {
+  width: 100%;
+}
+
+.HSRright p {
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 4px;
+  font-weight: 700;
+}
+
+.footerpic {
+  width: 30%;
+  /* height: 100%; */
+  text-align: center;
+}
+
+.footerpic img {
+  margin: 30px 0;
+}
+/* ------------------- Mobile 內容的部分------------------- */
+
+.mobileheader,
+.mobilestatus,
+.mobilespace {
+  display: none;
+  width: 100%;
+}
+
+.mobilespace {
+  width: 100%;
+  height: 60px;
+}
+.mobileheader .fas {
+  width: 10%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.mobileheader .logo {
+  width: 60%;
+  text-align: center;
+}
+.mobileheader img {
+  width: 200px;
+}
+
+@media (max-width: 1200px) {
+  /* 右側選單的部分 */
+
+  .hotservice,
+  .headerbg {
+    display: none;
+  }
+
+  /* Header 的部分 */
+  .topheader,
+  .nav,
+  .navbar a,
+  .fixeddiv,
+  .nav .logo img,
+  .language,
+  .info,
+  .slogan,
+  .hei {
+    display: none;
+  }
+
+  .corosel {
+    padding-top: 0px;
+  }
+  .mobilespace {
+    display: block;
+  }
+
+  .mobileheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+
+  .mobilestatus {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0px auto;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(16, 172, 16);
+  }
+}
+
+@media (max-width: 960px) {
+  /*最新消息的部分*/
+  .ser {
+    padding: 20px 0;
+  }
+
+  /*新聞資訊的部分*/
+  .newstitle a {
+    display: block;
+    line-height: 30px;
+  }
+
+  .newstitle span {
+    display: block;
+  }
+
+  .bulletincontent {
+    height: 100%;
+    padding: 0px 0px;
+  }
+
+  /*活動的部分*/
+
+  .activitycontent {
+    display: block;
+  }
+  .bigbanner {
+    width: 100%;
+  }
+
+  .actcard {
+    width: 100%;
+    /* height: 50%; */
+    margin-top: 10px;
+  }
+
+  .cardbody {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .cardbody .pic {
+    width: 50%;
+    /* height: 150px; */
+  }
+  .cardbody img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .cardbody h6 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .cardbody p {
+    display: none;
+  }
+
+  /*旅遊的部分*/
+
+  .connect {
+    background-color: #fff;
+  }
+  .travel {
+    background-color: #fff;
+    height: 1000px;
+  }
+  .travelcontent {
+    display: block;
+  }
+
+  .travelcard-banner {
+    height: 40%;
+  }
+
+  .banner-for-travel {
+    height: 60%;
+  }
+
+  .banner-for-travel img {
+    height: 100%;
+  }
+
+  .banner-body {
+    height: 5%;
+  }
+  .travelcard-banner,
+  .travelcard {
+    width: 100%;
+  }
+
+  .travelcard-banner p,
+  .banner-body a,
+  .banner-body .fas {
+    display: none;
+  }
+
+  .travelcard {
+    height: 55%;
+  }
+  .travelcard-body1 {
+    height: 50%;
+  }
+  .travelcard-body2 {
+    height: 60%;
+  }
+
+  .travelcard-content p {
+    display: none;
+  }
+
+  /* App 的部分*/
+
+  .App {
+    padding-top: 0;
+  }
+  .App-content {
+    display: block;
+  }
+
+  .Appintro {
+    margin: 30px auto;
+  }
+
+  .Appicon {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .Appicon img {
+    width: 150px;
+    margin: 10px;
+  }
+
+  .website-guide {
+    display: none;
+  }
+
+  /* Q&A 的部分*/
+
+  .contact {
+    width: 600px;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+  }
+
+  .qa-info,
+  .lost-inquiry,
+  .contact-us {
+    width: 25%;
+  }
+  .qa-content,
+  .qa-info a,
+  .lost-inquiry a,
+  .contact-us a {
+    display: block;
+    text-align: center;
+  }
+
+  .qa-info h4,
+  .lost-inquiry h4,
+  .contact-us h4 {
+    font-size: 1rem;
+    margin: 10px auto;
+  }
+
+  .qa-info img {
+    width: 60px;
+  }
+
+  .lost-inquiry .far,
+  .contact-us .fas {
+    font-size: 4rem;
+  }
+
+  .follow-us {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .followtext,
+  .social-icons {
+    width: 150px;
+    border: transparent;
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .followtext p {
+    text-align: right;
+  }
+  .social-icons img {
+    width: 50px;
+  }
+
+  /* Footer 的部分*/
+
+  .footer {
+    padding-top: 10px;
+  }
+  .footer-content {
+    display: block;
+    text-align: center;
+    width: 60%;
+    padding-left: 0px;
+  }
+
+  .footerpersonal {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .footerinfo {
+    margin: 10px 0;
+    justify-content: center;
+  }
+
+  .footerpic {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 320px) {
+  .mobileheader {
+    width: 100vw;
+  }
+}
